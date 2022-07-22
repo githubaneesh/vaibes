@@ -1,0 +1,153 @@
+  /*.lk_studies {
+    display        : flex;
+    justify-content: space-between;
+    width          : 80%;
+    height         : 60px;
+    align-items    : center;
+    padding        : 0 30px;
+    background     : rgba(0, 0, 0, 0.05);
+    border-radius  : 5px;
+    margin-top     : 50px;
+    button img { vertical-align: middle; }
+  }
+
+  .loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgb(233, 240, 255);
+  }
+
+  .dashboard-containeer {
+    min-height: calc(100vh - 141px);
+    .study-type {
+      h2 { 
+        color: rgba(0,0,0,0.6);
+        font-weight: 400;
+      }
+    }
+  }*/
+.home-wrapper{
+   /* background: #ffffff;
+    min-height: calc(100vh);*/
+    flex-direction: row;
+   position: relative;
+    
+  .topImg-container
+  {
+    /*background: url(../../../assets/images/home/top_image.png);*/
+    width: 100%;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    img{
+      width: 70%;
+      margin: auto;
+      display: block;
+
+    }
+    
+  }
+  .nav-button-container
+  {
+    width: 100%;
+    margin-top: 50px;
+    .endevour-label{      
+      text-align: center;
+      color: #fa053d;
+      h2{font-size: 26px;}
+    }
+    .nav-button-con
+    {
+      width: 70%;
+      margin: auto;
+
+      .nav-button
+      {
+        height: 50px;        
+        background-color: black;
+        flex-direction: column;       
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        cursor: pointer;
+        label{
+          float: none;
+          margin: 0 auto;
+          display: block;
+          color: white;
+          font-size: 16pt;
+          font-weight: normal;
+          cursor: pointer;
+        }
+
+      }
+      .btn_violet{background-color: #f18eb1}
+      .btn_blue{background-color: #12b3d8}
+      .btn_green{background-color: #9dca36}
+
+
+    }
+  }
+  .bottomImg-container
+  {
+    width: 100%;
+   /* background: url(../../../assets/images/home/bottom_image.png);*/
+    width: 100%;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+   /* bottom: 0px;*/
+    text-align: center;
+    color: #5a5a5a;
+    img{
+      width: 100%;
+    }
+  }
+  .about_con{
+    text-align: center;
+    h3{
+      color: #e94228;
+      font-size: 20px;
+    }
+    h5{
+      color: #5e5e5e;
+    }
+  }
+  .precursor_con{
+    text-align: center;
+    h3{
+      color: #0d81ba;
+      font-size: 20px;
+    }
+    h5{
+      color: #5e5e5e;
+    }
+  }
+  .sequential_con{
+     text-align: center;
+    h3{
+      color: #44b656;
+      font-size: 20px;
+    }
+    h5{
+      color: #5e5e5e;
+    }
+  }
+.competition-label{
+ text-align: center;
+ color: #fa053d;
+ margin: 20px 0px 10px 0px;
+  h2{margin: 0px}
+}
+.competition-item-label{
+   text-align: center;
+  color: #0d81ba;
+  margin: 5px 0px;
+  h4{margin: 0px}
+}
+}
+ 
+
+
+

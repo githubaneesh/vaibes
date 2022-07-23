@@ -1,2 +1,10 @@
-# LookLookAT-WebClient
-The web client for looklook analytics tool in reactjs
+# Vaibes-WebClient
+The web client for vaibes analytics tool in reactjs
+
+## To Run ## <br/>
+npm start
+
+## To Build ##<br/>
+
+npm run build --prod
+
